@@ -19,8 +19,12 @@ Emojis are the language of emotions in the digital age. EmojiPedia makes it simp
 ```bash
 git clone https://github.com/YOUR_USERNAME/EmojiPedia.git
 ```
-* Open index.html
-* Enjoy your time editing!
+* Open terminal and run:
+```bash
+npm install unicode-emoji-json
+```
+* Open http://localhost:3000
+* Enjoy EmojiPedia!
 
 ## ⭐ Support & Feedback
 
