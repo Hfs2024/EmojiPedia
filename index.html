@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emojipedia - The free emoji enclopedia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <i class="fa-solid fa-ghost"></i>
+        <p>Emojipedia</p>
+        <i class="fa-solid fa-bars"></i>
+    </header>
+
+    <div class="menu-content">
+        <div class="menu-header">
+            <i class="fa-solid fa-ghost"></i>
+            <p>Emojipedia Menu</p>
+            <i class="fa-solid fa-times menu-close"></i>
+        </div>
+        <nav class="menu-nav">
+            <a href="#" class="menu-item" data-action="home">
+                <i class="fa-solid fa-house"></i>
+                <span>Home</span>
+            </a>
+            <a href="#" class="menu-item" data-action="popular">
+                <i class="fa-solid fa-fire"></i>
+                <span>Popular Emojis</span>
+            </a>
+            <a href="#" class="menu-item" data-action="about">
+                <i class="fa-solid fa-info-circle"></i>
+                <span>About</span>
+            </a>
+            <a href="#" class="menu-item" data-action="github">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub</span>
+            </a>
+            <a href="#" class="menu-item" data-action="favorites">
+                <i class="fa-solid fa-star"></i>
+                <span>My Favorites</span>
+            </a>
+            <a href="#" class="menu-item" data-action="categories">
+                <i class="fa-solid fa-th-large"></i>
+                <span>Browse Categories</span>
+            </a>
+        </nav>
+        <div class="menu-footer">
+            <p>&copy; 2026 Emojipedia</p>
+        </div>
+    </div>
+
+    <h1>Welcome to Emojipedia</h1>
+    <p style="text-align: center;">This webiste will help you to find what any emoji means.</p>
+
+    <div class="line-text">Search emoji</div>
+
+    <div class="search-container">
+        <input placeholder="Search emoji..." id="searchInput" />
+        <button id="searchBtn">Search</button>
+    </div>
+
+    <div class="emoji-container">
+        <h3>Emoji meaning: </h3>
+        <p>Search for an emoji first.</p>
+    </div>
+
+    <div class="line-text">Random emoji!</div>
+    <button id="randomEmojiBtn">
+        <i class="fa-solid fa-dice"></i>
+        <span>Random Emoji</span>
+    </button>
+
+    <div class="line-text">Is this a free open source project?</div>
+    <p style="text-align: center;">"Yes, this is indeed an open source project built by Codemaster and licensed under
+        MIT."</p>
+    <p style="text-align: center;">"If you liked the project, please support us at <a href='https://www.github.com/'
+            style="color: green;">Github</a>"</p>
+
+    <footer>
+        <p>Emojipedia &copy; 2026</p>
+    </footer>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "unicode-emoji-json/": "./node_modules/unicode-emoji-json/"
+        }
+      }
+    </script>
+
+    <!-- JS -->
+    <script src="js/get.js"></script>
+    <script type="module" src="js/emojiMap.js"></script>
+    <script type="module" src="js/findEmoji.js"></script>
+    <script type="module" src="js/menu.js"></script>
+    <script src="js/emojiApply.js"></script>
+    <script type="module" src="js/randomEmoji.js"></script>
+    <script type="module" src="js/search.js"></script>
+    <script src="js/favoriteEmoji.js"></script>
+</body>
+
+</html>
