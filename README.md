@@ -21,6 +21,10 @@ git clone https://github.com/YOUR_USERNAME/EmojiPedia.git
 ```
 * Open index.html
 * Enjoy your time editing!
----
+
+## ⭐ Support & Feedback
+
+If you like QuickPy, give it a star! ⭐
+Share it with friends and classmates who want a lightweight, browser-based Python playground.
 
 **Created by Codemaster, aged 13** 👊
